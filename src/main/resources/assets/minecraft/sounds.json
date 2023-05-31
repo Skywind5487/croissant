@@ -1,0 +1,10 @@
+{
+"music_disc.trialonethefatratunityyoutube": {
+    "sounds": [
+        {
+            "name": "records/trialonethefatratunityyoutube",
+            "stream": true
+        }
+    ]
+}
+}
