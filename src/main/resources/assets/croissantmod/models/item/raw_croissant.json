@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "croissantmod:item/raw_croissant"
+  },
+  "display": {
+    "head": {
+      "rotation": [ -150, -90, 0 ],
+      "translation": [ 0, 4, -5],
+      "scale":[ 1, 1, 1]
+    }
+  }
+}

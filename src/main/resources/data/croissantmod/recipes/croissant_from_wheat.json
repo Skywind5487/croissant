@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "o": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "###",
+    "#o#"
+  ],
+  "result": {
+    "item": "croissantmod:raw_croissant"
+  }
+}

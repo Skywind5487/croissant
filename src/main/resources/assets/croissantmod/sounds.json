@@ -1,0 +1,10 @@
+{
+  "croissant": {
+    "sounds": [
+      {
+        "name": "croissantmod:croissant",
+        "stream": true
+      }
+    ]
+  }
+}
