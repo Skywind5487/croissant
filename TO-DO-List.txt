@@ -6,6 +6,9 @@ Coding
 
 Item
 1. Different effect Croissant
+2. Croissant bow and sword
+3. Criossant plate (modify invisiable item 展示框)
+
 
 
 Recipe
