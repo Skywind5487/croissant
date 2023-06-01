@@ -1,0 +1,24 @@
+Item
+1. croissant
+2. raw_croissant
+3. overcooked_croissant
+4. disc
+
+Recipe
+1. 5wheat1sugar->raw_croissant
+2. furnace campfire smoker
+    raw to unraw
+    unovercooked to overcooked
+3. 8coal or 8charcoal 1croissant to overcooked
+4. Overcooked to black dye
+
+Model(with item command)
+1. 牛
+2. 犀牛 raw
+3. 牛
+
+Disc
+
+
+Eat
+
