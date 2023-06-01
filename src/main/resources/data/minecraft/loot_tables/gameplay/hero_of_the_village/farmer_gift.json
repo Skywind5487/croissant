@@ -9,7 +9,7 @@
           "name": "minecraft:bread"
         },
         {
-          "type": "minecraft:gift",
+          "type": "minecraft:item",
           "name": "croissantmod:croissant"
         },
         {
