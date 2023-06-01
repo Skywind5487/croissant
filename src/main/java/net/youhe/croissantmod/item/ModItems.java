@@ -14,9 +14,7 @@ public class ModItems {
     public static final Item CROISSANT = registerItem("croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(7).saturationModifier(0.8f).build())));
-    public EquipmentSlot getSlotType() {
-        return EquipmentSlot.HEAD;
-    }
+    
     public static final Item RAW_CROISSANT = registerItem("raw_croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(1).build())));
@@ -44,5 +42,7 @@ public class ModItems {
     public static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
     }
-
+    public EquipmentSlot getSlotType() {
+        return EquipmentSlot.HEAD;
+    }
 }
