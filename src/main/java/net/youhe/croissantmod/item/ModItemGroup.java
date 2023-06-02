@@ -12,7 +12,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups(){
         LAS_CROISSANTS = FabricItemGroup.builder(new Identifier(CroissantMod.MOD_ID, "las_croissants"))
-                .displayName(Text.literal("las Croissant"))
+                .displayName(Text.literal("las Croissants"))
                 .icon(() -> new ItemStack(ModItems.CROISSANT)).build();
     }
 

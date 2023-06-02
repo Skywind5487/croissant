@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "croissantmod:item/disc"
+    "layer0": "croissantmod:item/croissant_disc"
   }
 }
