@@ -1,7 +1,11 @@
 Coding
 1. addItemGroup
 2. Croissant Ammor
-3. A introduction map
+
+Making
+1. A introduction map
+	(1)farm
+	(2)basic showcase preparing
 
 
 Item
