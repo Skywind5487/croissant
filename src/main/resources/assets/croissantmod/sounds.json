@@ -2,7 +2,7 @@
   "croissant": {
     "sounds": [
       {
-        "name": "croissantmod:croissant",
+        "name": "croissantmod:croissant_disc",
         "stream": true
       }
     ]

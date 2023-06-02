@@ -8,7 +8,7 @@ import net.youhe.croissantmod.CroissantMod;
 
 public class ModSounds {
 
-    public static SoundEvent CROISSANT = registerSoundEvent("croissant");
+    public static SoundEvent CROISSANT_DISC = registerSoundEvent("croissant_disc");
 
     private static SoundEvent registerSoundEvent(String name){
         Identifier id = new Identifier(CroissantMod.MOD_ID, name);
