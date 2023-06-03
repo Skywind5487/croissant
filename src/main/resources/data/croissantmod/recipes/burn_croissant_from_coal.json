@@ -3,7 +3,7 @@
   "category": "food",
   "key": {
     "o": {
-      "item": "croissantmod:croissant"
+      "tag": "croissantmod:croissants"
     },
     "#": [
       {

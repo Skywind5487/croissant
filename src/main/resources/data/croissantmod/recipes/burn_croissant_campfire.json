@@ -4,7 +4,7 @@
   "cookingtime": 600,
   "experience": 1.0,
   "ingredient": {
-    "item": "croissantmod:croissant"
+    "tag": "croissantmod:croissants"
   },
   "result": "croissantmod:overcooked_croissant"
 }
