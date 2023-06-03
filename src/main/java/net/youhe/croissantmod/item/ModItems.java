@@ -16,6 +16,9 @@ public class ModItems {
     public static final Item CHOCO_CROISSANT = registerItem("choco_croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+    public static final Item RAW_CHOCO_CROISSANT = registerItem("raw_choco_croissant",
+            new Item(new FabricItemSettings()
+                    .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
     public static final Item RAW_CROISSANT = registerItem("raw_croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(1).build())));
@@ -36,6 +39,7 @@ public class ModItems {
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, CROISSANT);
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, CHOCO_CROISSANT);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_CHOCO_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, RAW_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, OVERCOOKED_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, CROISSANT_DISC);
