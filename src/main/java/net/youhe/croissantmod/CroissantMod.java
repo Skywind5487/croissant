@@ -2,6 +2,7 @@ package net.youhe.croissantmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.youhe.croissantmod.item.ModItemGroup;
 import net.youhe.croissantmod.item.ModItems;
 import net.youhe.croissantmod.registries.ModRegistries;
