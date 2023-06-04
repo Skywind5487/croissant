@@ -1,8 +1,11 @@
 {
   "item.croissantmod.croissant":"Croissant",
   "item.croissantmod.light_sugar_croissant":"Puder Croissant",
-  "item.croissantmod.half_sugar_croissant":"Süßes Croissant",
-  "item.croissantmod.tainan_croissant":"Zucker Croissant",
+  "item.croissantmod.half_sugar_croissant":"Zucker Croissant",
+  "item.croissantmod.tainan_croissant":"Zuckerguß Croissant",
+  "item.croissantmod.light_sugar_choco_croissant":"Puder Schoko Croissant",
+  "item.croissantmod.half_sugar_choco_croissant":"Zucker Schoko Croissant",
+  "item.croissantmod.tainan_choco_croissant":"Zuckerguß Schoko Croissant",
   "item.croissantmod.choco_croissant":"Schoko Croissant",
   "item.croissantmod.raw_choco_croissant":"Rohes Schoko Croissant",
   "item.croissantmod.raw_croissant":"Rohes Croissant",
