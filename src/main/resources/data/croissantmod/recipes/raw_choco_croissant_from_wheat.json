@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "o": {
+      "item": "minecraft:sugar"
+    },
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "###",
+    "#o#"
+  ],
+  "result": {
+    "item": "croissantmod:raw_choco_croissant"
+  }
+}

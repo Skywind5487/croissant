@@ -12,13 +12,13 @@ import net.youhe.croissantmod.sound.ModSounds;
 public class ModItems {
     public static final Item CROISSANT = registerItem("croissant",
             new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+                    .food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build())));
     public static final Item CHOCO_CROISSANT = registerItem("choco_croissant",
             new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+                    .food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f).build())));
     public static final Item RAW_CHOCO_CROISSANT = registerItem("raw_choco_croissant",
             new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build())));
+                    .food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build())));
     public static final Item RAW_CROISSANT = registerItem("raw_croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(1).build())));
@@ -48,6 +48,7 @@ public class ModItems {
 
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CHOCO_CROISSANT);
+        addToItemGroup(ModItemGroup.LAS_CROISSANTS,RAW_CHOCO_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,RAW_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,OVERCOOKED_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CROISSANT_DISC);

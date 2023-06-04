@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "croissantmod:raw_choco_croissant"
+  },
+  "result": "croissantmod:choco_croissant"
+}
