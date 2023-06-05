@@ -3,6 +3,7 @@ package net.youhe.croissantmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.youhe.croissantmod.ModBlocks.ModBlocks;
 import net.youhe.croissantmod.item.ModItemGroup;
 import net.youhe.croissantmod.item.ModItems;
 import net.youhe.croissantmod.registries.ModRegistries;
@@ -17,6 +18,7 @@ public class CroissantMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItemGroup.registerItemGroups();
+        ModBlocks.registerModBlocks();
         ModItems.registerModItems();
         ModItems.addItemsToItemGroup();
         ModRegistries.registerModFuel();
