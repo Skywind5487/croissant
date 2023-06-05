@@ -19,8 +19,10 @@ public class CroissantMod implements ModInitializer {
     public void onInitialize() {
         ModItemGroup.registerItemGroups();
         ModBlocks.registerModBlocks();
+        ModBlocks.addItemsToItemGroup();
         ModItems.registerModItems();
         ModItems.addItemsToItemGroup();
         ModRegistries.registerModFuel();
+
     }
 }

@@ -14,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.youhe.croissantmod.CroissantMod;
+import net.youhe.croissantmod.item.costum.TestItem;
 import net.youhe.croissantmod.sound.ModSounds;
 
 public class ModItems {
@@ -66,6 +67,11 @@ public class ModItems {
     public static final Item CROISSANT_DISC = registerItem("croissant_disc",
             new MusicDiscItem(7, ModSounds.CROISSANT_DISC, new FabricItemSettings().maxCount(1), 16));
 
+
+    //public static final Item TESTITEMHEAD = registerItem("test_item_head",new TestItem(new Item.Settings()));
+
+
+
     public static void registerModItems() {
         CroissantMod.LOGGER.info("Registering Mod Items");
     }
@@ -101,6 +107,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,TAINAN_CHOCO_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,OVERCOOKED_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CROISSANT_DISC);
+
+        //addToItemGroup(ModItemGroup.LAS_CROISSANTS,TESTITEMHEAD);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {
