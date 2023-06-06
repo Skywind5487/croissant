@@ -11,7 +11,7 @@ public class ModRegistries {
     public static void registerModFuel(){
         CroissantMod.LOGGER.info("Registering Mod Items");
         FuelRegistry registry = FuelRegistry.INSTANCE;
-        registry.add(ModItems.OVERCOOKED_CROISSANT, 6400);
+        registry.add(ModItems.OVERCOOKED_CROISSANT, 600);
 
     }
 }
