@@ -42,21 +42,6 @@ public class ModItems {
                     .food(new FoodComponent.Builder().hunger(8).saturationModifier(0.8f)
                             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,100,1),1.0f)
                             .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,100,1),0.8f).build())));
-    public static final Item LIGHT_SUGAR_CHOCO_CROISSANT = registerItem("light_sugar_choco_croissant",
-            new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,100,0),0.5f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,100,0),0.5f).build())));
-    public static final Item HALF_SUGAR_CHOCO_CROISSANT = registerItem("half_sugar_choco_croissant",
-            new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,100,1),0.8f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,100,0),0.8f).build())));
-    public static final Item TAINAN_CHOCO_CROISSANT = registerItem("tainan_choco_croissant",
-            new Item(new FabricItemSettings()
-                    .food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,100,1),1.0f)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,100,1),0.8f).build())));
     public static final Item CHOCO_CROISSANT = registerItem("choco_croissant",
             new Item(new FabricItemSettings()
                     .food(new FoodComponent.Builder().hunger(10).saturationModifier(0.9f).build())));
@@ -88,29 +73,24 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, CROISSANT);
+        addToItemGroup(ItemGroups.FOOD_AND_DRINK, TAINAN_CROISSANT);
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, LIGHT_SUGAR_CROISSANT);
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, HALF_SUGAR_CROISSANT);
-        addToItemGroup(ItemGroups.FOOD_AND_DRINK, TAINAN_CROISSANT);
-        addToItemGroup(ItemGroups.INGREDIENTS, RAW_CROISSANT);
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, CHOCO_CROISSANT);
-        addToItemGroup(ItemGroups.FOOD_AND_DRINK, LIGHT_SUGAR_CHOCO_CROISSANT);
-        addToItemGroup(ItemGroups.FOOD_AND_DRINK, HALF_SUGAR_CHOCO_CROISSANT);
-        addToItemGroup(ItemGroups.FOOD_AND_DRINK, TAINAN_CHOCO_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, RAW_CHOCO_CROISSANT);
+        addToItemGroup(ItemGroups.INGREDIENTS, RAW_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, OVERCOOKED_CROISSANT);
         addToItemGroup(ItemGroups.INGREDIENTS, CROISSANT_DISC);
+        addToItemGroup(ItemGroups.FOOD_AND_DRINK, RAW_CROISSANT);
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, OVERCOOKED_CROISSANT);
 
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CROISSANT);
-        addToItemGroup(ModItemGroup.LAS_CROISSANTS,RAW_CROISSANT);
+        addToItemGroup(ModItemGroup.LAS_CROISSANTS,TAINAN_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,LIGHT_SUGAR_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,HALF_SUGAR_CROISSANT);
-        addToItemGroup(ModItemGroup.LAS_CROISSANTS,TAINAN_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CHOCO_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,RAW_CHOCO_CROISSANT);
-        addToItemGroup(ModItemGroup.LAS_CROISSANTS,LIGHT_SUGAR_CHOCO_CROISSANT);
-        addToItemGroup(ModItemGroup.LAS_CROISSANTS,HALF_SUGAR_CHOCO_CROISSANT);
-        addToItemGroup(ModItemGroup.LAS_CROISSANTS,TAINAN_CHOCO_CROISSANT);
+        addToItemGroup(ModItemGroup.LAS_CROISSANTS,RAW_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,OVERCOOKED_CROISSANT);
         addToItemGroup(ModItemGroup.LAS_CROISSANTS,CROISSANT_DISC);
 
