@@ -2,17 +2,12 @@
   "replace": false,
   "values": [
     "croissantmod:croissant",
-<<<<<<< HEAD
     "croissantmod:choco_croissant",
     "croissantmod:light_sugar_croissant",
     "croissantmod:half_sugar_croissant",
     "croissantmod:tainan_croissant",
     "croissantmod:light_sugar_choco_croissant",
     "croissantmod:half_sugar_choco_croissant",
-    "croissantmod:tainan_choco_croissant",
+    "croissantmod:tainan_choco_croissant"
     ]
-=======
-    "croissantmod:choco_croissant"
-  ]
->>>>>>> parent of 6e0794e (add sugar chocolate edition)
 }
