@@ -16,8 +16,8 @@ public class CroissantMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItemGroup.registerItemGroups();
-        //ModBlocks.registerModBlocks();
-        //ModBlocks.addItemsToItemGroup();
+        // ModBlocks.registerModBlocks();
+        // ModBlocks.addItemsToItemGroup();
         ModItems.registerModItems();
         ModItems.addItemsToItemGroup();
         ModRegistries.registerModFuel();
