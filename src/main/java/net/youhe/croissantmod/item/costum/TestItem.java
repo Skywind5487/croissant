@@ -1,4 +1,4 @@
-
+/*
 package net.youhe.croissantmod.item.costum;
 
 import net.minecraft.block.DispenserBlock;
@@ -53,3 +53,4 @@ public class TestItem extends Item implements Wearable {
     }
 
 }
+*/
