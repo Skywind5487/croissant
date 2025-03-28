@@ -35,7 +35,10 @@ This project uses Gradle for build automation and dependency management.
    ```bash
    ./gradlew genSources
     ```
-3. Run the following commands if you want to test the mod:
+3. Copy the mod from addToModFolder to the mods folder in the run/mods folder
+   1. Include tweakroo and iris
+4. Copy the intro_World2.0 to the run/saves folder
+4. Run the following commands if you want to test the mod:
    ```bash
    ./gradlew runClient
     ```
